@@ -30,24 +30,29 @@
 			name: "hermionegranger",
 		   house: "gryffindor",
 		  gender: "female"
-		}]		
+		}]	
+		
+		/*
+		 * Create two empty lists
+		 */	
+		var Gryffindors = [];
+		var Slytherins = [];
 		/*
 	 	* Beginning of "for" loop
 	 	* Round parentheses, which means "function" 
 	 	* Required ingredients: where to start (start at 0), where to end (end at 5), how many to increment
 	 	* Variable = new box; i = index or the label of the variable; i++ currently value plus one
 	 	*/	
-	 	console.log(harrypottercharacters[0]);
 		for(var i=0; i<5; i++){
 		/*
 		 * Console log the for loop, and replace the numbers with the item names
 		 */	
-			var item = harrypottercharacters[i];
+			var characters = harrypottercharacters[i];
 		/*
-		 * Create if loop, if 
+		 * Create if loop, if house equals gryffindor then console log item.
 		 */	
-        if(item.house == "gryffindor"){
-        		console.log(item);
+        if(characters.house == "gryffindor"){
+        		console.log(characters);
         
 		 }// end of if statement
     }// end of for loop	
