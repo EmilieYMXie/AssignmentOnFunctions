@@ -37,6 +37,8 @@
 		 */	
 		var Gryffindors = [];
 		var Slytherins = [];
+		
+	function sortCharacters(){
 		/*
 	 	* Beginning of "for" loop
 	 	* Round parentheses, which means "function" 
@@ -45,7 +47,7 @@
 	 	*/	
 		for(var i=0; i<5; i++){
 		/*
-		 * Console log the for loop, and replace the numbers with the item names
+		 * Create additional variable, using characters to replace "harrypottercharacters"
 		 */	
 			var characters = harrypottercharacters[i];
 		/*
@@ -58,8 +60,10 @@
          */
         }else{
         	Slytherins.push(characters);
-		 }// end of if statement
-    }// end of for loop	
+		}// end of if statement
+      }// end of for loop	
+   }// end of sortCharacters function
+   
 		console.log(Gryffindors);
 		console.log(Slytherins);
 		</script>
