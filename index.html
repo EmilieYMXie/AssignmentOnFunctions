@@ -12,37 +12,44 @@
 		 */
 		var harrypottercharacters = [{
 			name: "harrypotter",
-			type: "gryffindor",
+		   house: "gryffindor",
 		  gender: "male"
 		},{
 			name: "dracomalfoy",
-			type: "slytherin",
+		   house: "slytherin",
 		  gender: "male"
 		},{
 			name: "ronweasley",
-			type: "gryffindor",
+		   house: "gryffindor",
 		  gender: "male"
 		},{
 			name: "blaisezabini",
-			type: "slytherin",
+		   house: "slytherin",
 		  gender: "male"
 		},{
 			name: "hermionegranger",
-			type: "gryffindor",
+		   house: "gryffindor",
 		  gender: "female"
 		}]		
 		/*
 	 	* Beginning of "for" loop
 	 	* Round parentheses, which means "function" 
 	 	* Required ingredients: where to start (start at 0), where to end (end at 5), how many to increment
-	 	* Variable = new box; i = index or the label of the variable; i++ currently value plus one; +=2 plus equals two
+	 	* Variable = new box; i = index or the label of the variable; i++ currently value plus one
 	 	*/	
 	 	console.log(harrypottercharacters[0]);
-		 for(var i=0; i<5; i++){
-        console.log(i);
+		for(var i=0; i<5; i++){
+		/*
+		 * Console log the for loop, and replace the numbers with the item names
+		 */	
+			var item = harrypottercharacters[i];
+		/*
+		 * Create if loop, if 
+		 */	
+        if(item.house == "gryffindor"){
+        		console.log(item);
         
-        		
-
+		 }// end of if statement
     }// end of for loop	
 			
 		</script>
