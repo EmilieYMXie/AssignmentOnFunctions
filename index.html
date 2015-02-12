@@ -52,11 +52,16 @@
 		 * Create if loop, if house equals gryffindor then console log item.
 		 */	
         if(characters.house == "gryffindor"){
-        		console.log(characters);
-        
+        	Gryffindors.push(characters);
+        /*
+         * Create else list for those not in Gryffindor, but in SLytherin
+         */
+        }else{
+        	Slytherins.push(characters);
 		 }// end of if statement
     }// end of for loop	
-			
+		console.log(Gryffindors);
+		console.log(Slytherins);
 		</script>
 		
 	</body>
