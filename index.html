@@ -51,7 +51,7 @@
 		/*
 		 * Create additional variable, using characters to replace "harrypottercharacters"
 		 */	
-			var characters = harrypottercharacters[i];
+			var characters = charactersToSort[i];
 		/*
 		 * Create if loop, if house equals gryffindor then console log item.
 		 */	
@@ -64,10 +64,11 @@
         	Slytherins.push(characters);
 		}// end of if statement
       }// end of for loop	
+      	console.log(Gryffindors);
+		console.log(Slytherins);
    }// end of sortCharacters function
    
-		console.log(Gryffindors);
-		console.log(Slytherins);
+		sortCharacters(harrypottercharacters)
 		</script>
 		
 	</body>
