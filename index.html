@@ -87,9 +87,14 @@
         	Slytherins.push(characters);
 		}// end of if statement
       }// end of for loop	
-      	console.log(Gryffindors);
-		console.log(Slytherins);
+      	return(Gryffindors);
    }// end of sortCharacters function
+   
+   		var GryffindorCharacters = sortCharacters(harrypottercharacters);
+   	/*
+   	 * Expect to see list of characters belonging to Gryffindor
+   	 */
+   		console.log(GryffindorCharacters);
    /*
     * Run first list through function, except to sort characters into houses
     */
